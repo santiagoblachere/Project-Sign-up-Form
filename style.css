@@ -50,6 +50,11 @@ table {
     font-family: norse;
     src: url(./fonts/Norse-Bold.otf);
 }
+/* MAIN */
+main {
+    display: flex;
+}
+/* LEFT-SIDE-SECTION */
 .side-section {
     position: relative;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
@@ -91,3 +96,52 @@ table {
 
 
 /* FORM-SECTION */
+
+.form-section {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: antiquewhite
+}
+h2 {
+    
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 80%;
+    margin-left: 30px;
+    padding-top: 38px;
+    background-color: antiquewhite;
+    
+}
+legend {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    width: 80%;
+    
+}
+em {
+    font-style: italic;
+}
+
+form {
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding-left: 30px;
+    gap: 50px;
+    display: flex;
+    justify-content: flex-start
+}
+
+fieldset * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.input {
+    
+}
