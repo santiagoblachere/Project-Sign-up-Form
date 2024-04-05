@@ -124,24 +124,77 @@ legend {
 em {
     font-style: italic;
 }
-
+.form-container {
+    height: 100%;
+}
 form {
-    margin-top: 10px;
+    height: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: white;
-    padding-left: 30px;
+    background-color: rgba(153, 35, 35, 0.37);
+    
+    
     gap: 50px;
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 fieldset * {
+    padding-left: 30px;
+    font-size: 0.8rem;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     text-align: start;
-}
-.input {
     
+}
+form > div {
+    display: flex;
+    gap: 100px;
+    
+}
+label  {
+    margin-left: -30px;
+}
+legend {
+    margin-left: 30px;
+    margin-bottom: -40px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: antiquewhite
+}
+
+
+.log-in {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+    
+    
+}
+.submit {
+    height: 50%
+}
+input[type="submit"] {
+    padding-top: 3px;
+    width: 150px;
+    height: 25px;
+    color: white;
+    background-color: #596D48;;
+    border-style: none;
+    border-radius: 10px;
 }
