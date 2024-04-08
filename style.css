@@ -130,7 +130,7 @@ em {
 form {
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: rgba(153, 35, 35, 0.37);
+    background-color: rgba(141, 89, 89, 0.103);
     
     
     gap: 50px;
@@ -197,4 +197,13 @@ input[type="submit"] {
     background-color: #596D48;;
     border-style: none;
     border-radius: 10px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid blue
 }
